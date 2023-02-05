@@ -79,7 +79,7 @@ class ViewController: UIViewController {
     }
     
     func playAudio() {
-        let path = Bundle.main.path(forResource: "laser.mp3", ofType : "mp3")!
+        let path = Bundle.main.path(forResource: "laser", ofType : "mp3")!
         let url = URL(fileURLWithPath : path)
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url)

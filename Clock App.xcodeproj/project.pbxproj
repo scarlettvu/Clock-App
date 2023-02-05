@@ -13,6 +13,7 @@
 		06F5D556298F993200DD996F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F5D554298F993200DD996F /* Main.storyboard */; };
 		06F5D558298F993300DD996F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F5D557298F993300DD996F /* Assets.xcassets */; };
 		06F5D55B298F993300DD996F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F5D559298F993300DD996F /* LaunchScreen.storyboard */; };
+		06F5D5902990786500DD996F /* laser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06F5D58F2990786500DD996F /* laser.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		06F5D557298F993300DD996F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06F5D55A298F993300DD996F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06F5D55C298F993300DD996F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F5D58F2990786500DD996F /* laser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laser.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		06F5D54D298F993200DD996F /* Clock App */ = {
 			isa = PBXGroup;
 			children = (
+				06F5D58F2990786500DD996F /* laser.mp3 */,
 				06F5D54E298F993200DD996F /* AppDelegate.swift */,
 				06F5D550298F993200DD996F /* SceneDelegate.swift */,
 				06F5D552298F993200DD996F /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				06F5D55B298F993300DD996F /* LaunchScreen.storyboard in Resources */,
 				06F5D558298F993300DD996F /* Assets.xcassets in Resources */,
+				06F5D5902990786500DD996F /* laser.mp3 in Resources */,
 				06F5D556298F993200DD996F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
