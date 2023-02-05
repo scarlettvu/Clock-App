@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "E, d MMM yyyy HH:mm:ss"
         
-        // Date converts into string for the label
+        // Date converts into string for label
         let currentTime = dateFormatter.string(from: dateTime)
         self.dateTimeLabel.text = currentTime
         
